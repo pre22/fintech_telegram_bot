@@ -7,7 +7,7 @@ BOT_TOKEN = config("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Welcome to WalletBot!\n Your one stop bot for all payments. Kindly use the commands below to carry out any transaction of your choice\n\nUse /balance,\n /fund <amount>,\n /withdraw <amount>,\n /transactions"
+        "Welcome to WalletBot!\nA simple simulated wallet management Telegram bot\n\nUse /balance,\n /fund <amount>,\n /withdraw <amount>,\n /transactions"
     )
 
 # Handle Balance
